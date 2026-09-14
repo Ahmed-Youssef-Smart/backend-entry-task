@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>عرض المهام</title>
+</head>
+<body>
+
+  <!-- نموذج إضافة مهمة جديدة -->
+  <div>
+    <h3>إضافة مهمة جديدة:</h3>
+    <input type="text" id="taskTitle" placeholder="اكتب عنوان المهمة...">
+    <button onclick="addTask()">إضافة مهمة</button>
+  </div>
+
+  <hr>
+
+  <!-- جلب البيانات من الموقع -->
+  <div>
+    <h3>جلب البيانات من الموقع:</h3>
+    <label>رقم المستخدم (userId): </label>
+    <input type="text" id="userIdInput" placeholder="اكتب رقم المستخدم...">
+    <button onclick="fetchTodos()">عرض البيانات</button>
+    <button onclick="fetchAllTodos()">عرض جميع البيانات</button>
+  </div>
+
+  <hr>
+
+  <!-- مكان عرض المهام -->
+  <h3>قائمة المهام:</h3>
+  <div id="tasksList"></div>
+
+  <!-- ربط ملف الجافاسكريبت taskStore.js -->
+  <script src="taskStore.js"></script>
+
+</body>
+</html>

@@ -1,2 +1,9 @@
-# backend-entry-task
-Task JavaScript
+**اسم المتقدم:Ahmed Elsayed Youssef  
+**اسم المشروع:** backend-entry-task  
+**الملفات:** `taskStore.js` و `index.html`
+
+---
+
+## 🚀 طريقة التشغيل
+- افتح ملف `index.html` مباشرة في أي متصفح (مثل Chrome أو Edge).
+- يمكنك تجربة كافة العمليات من خلال الواجهة مباشرة (جلب البيانات الخارجية، إضافة مهمة
